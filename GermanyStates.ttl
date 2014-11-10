@@ -1,0 +1,83 @@
+@prefix : <#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> . 
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . 
+@prefix owl: <http://www.w3.org/2002/07/owl#> . 
+@prefix vivo: <http://vivoweb.org/ontology/core#> .
+
+:GermanyStates
+a dct:Dataset ;
+dct:source <http://www.wikidata.org/entity/Q830106> ;
+dct:title "States of Germany" ;
+dct:description "This dataset was created by Elena Liventsova and Christian Hauschke for use in current research information system VIVO at University of Applied Sciences and Arts Hannover, Germany. It contains information about German states, including GND-links, and labels in German. It is tested with VIVO 1.6 and 1.7." ;
+dct:creator <http://lobid.org/organisation/DE-960> ;
+dct:created "2014-11-10" ;
+dc:rights "This dataset is available under the Creative Commons Public Domain Dedication (CC0)." ;
+dct:rights <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+
+<http://sws.geonames.org/2862926/>a vivo:StateOrProvince ;
+obo:BFO_0000050 <http://sws.geonames.org/2921044/> ;
+rdfs:seeAlso <http://d-nb.info/gnd/4042226-4> ;
+rdfs:label "Niedersachsen" .
+<http://sws.geonames.org/2951839/> a vivo:StateOrProvince ;
+obo:BFO_0000050 <http://sws.geonames.org/2921044/> ;
+rdfs:seeAlso <http://d-nb.info/gnd/4005044-0> ;
+rdfs:label "Bayern" .
+<http://sws.geonames.org/2945356/> a vivo:StateOrProvince ;
+obo:BFO_0000050 <http://sws.geonames.org/2921044/> ;
+rdfs:seeAlso <http://d-nb.info/gnd/4007955-7> ;
+rdfs:label "Brandenburg" .
+<http://sws.geonames.org/2838632/> a vivo:StateOrProvince ;
+obo:BFO_0000050 <http://sws.geonames.org/2921044/> ;
+rdfs:seeAlso <http://d-nb.info/gnd/4052692-6> ;
+rdfs:label "Schleswig-Holstein" .
+<http://sws.geonames.org/2905330/> a vivo:StateOrProvince ;
+obo:BFO_0000050 <http://sws.geonames.org/2921044/> ;
+rdfs:seeAlso <http://d-nb.info/gnd/4024729-6> ;
+rdfs:label "Hessen" .
+<http://sws.geonames.org/2953481/> a vivo:StateOrProvince ;
+obo:BFO_0000050 <http://sws.geonames.org/2921044/> ;
+rdfs:seeAlso <http://d-nb.info/gnd/4004176-1> ;
+rdfs:label "Baden-Württemberg" .
+<http://sws.geonames.org/2944387/> a vivo:StateOrProvince ;
+obo:BFO_0000050 <http://sws.geonames.org/2921044/> ;
+rdfs:seeAlso <http://d-nb.info/gnd/4008135-7> ;
+rdfs:label "Bremen" .
+<http://sws.geonames.org/2822542/> a vivo:StateOrProvince ;
+obo:BFO_0000050 <http://sws.geonames.org/2921044/> ;
+rdfs:seeAlso <http://d-nb.info/gnd/4059979-6> ;
+rdfs:label "Thüringen" .
+<http://sws.geonames.org/2872567/> a vivo:StateOrProvince ;
+obo:BFO_0000050 <http://sws.geonames.org/2921044/> ; 
+rdfs:seeAlso <http://d-nb.info/gnd/4242861-0> ;
+rdfs:label "Mecklenburg-Vorpommern" . 
+<http://sws.geonames.org/2950157/> a vivo:StateOrProvince ;
+obo:BFO_0000050 <http://sws.geonames.org/2921044/> ;
+rdfs:seeAlso <http://d-nb.info/gnd/4005728-8> ;
+rdfs:label "Berlin" . 
+<http://sws.geonames.org/2861876/> a vivo:StateOrProvince ;
+obo:BFO_0000050 <http://sws.geonames.org/2921044/> ;
+rdfs:seeAlso <http://d-nb.info/gnd/4042570-8> ;
+rdfs:label "Nordrhein-Westfalen" . 
+<http://sws.geonames.org/2842635/> a vivo:StateOrProvince ;
+obo:BFO_0000050 <http://sws.geonames.org/2921044/> ;
+rdfs:seeAlso <http://d-nb.info/gnd/4076919-7> ;
+rdfs:label "Saarland" . 
+<http://sws.geonames.org/2847618/> a vivo:StateOrProvince ;
+obo:BFO_0000050 <http://sws.geonames.org/2921044/> ;
+rdfs:seeAlso <http://d-nb.info/gnd/4049795-1> ;
+rdfs:label "Rheinland-Pfalz" .
+<http://sws.geonames.org/2842565/> a vivo:StateOrProvince ;
+obo:BFO_0000050 <http://sws.geonames.org/2921044/> ;
+rdfs:seeAlso <http://d-nb.info/gnd/4051181-9> ;
+rdfs:label "Sachsen-Anhalt" . 
+<http://sws.geonames.org/2911297/> a vivo:StateOrProvince ;
+obo:BFO_0000050 <http://sws.geonames.org/2921044/> ;
+rdfs:seeAlso <http://d-nb.info/gnd/4023118-5> ;
+rdfs:label "Hamburg" . 
+<http://sws.geonames.org/2842566/> a vivo:StateOrProvince ;
+obo:BFO_0000050 <http://sws.geonames.org/2921044/> ;
+rdfs:seeAlso <http://d-nb.info/gnd/4051176-5> ;
+rdfs:label "Sachsen" . 

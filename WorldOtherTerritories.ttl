@@ -1,0 +1,85 @@
+@prefix : <#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://aims.fao.org/aos/geopolitical.owl#> .
+@prefix vivo: <http://vivoweb.org/ontology/core#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+
+:WorldOtherTerritories
+a dct:Dataset ;
+dct:source <http://www.wikidata.org/entity/Q830106> ;
+dct:title "Other territories" ;
+dct:description "This dataset was created by Elena Liventsova and Christian Hauschke for use in current research information system VIVO at University of Applied Sciences and Arts Hannover, Germany. It contains information about some territories with disputed status. It is tested with VIVO 1.6 and 1.7." ;
+dct:creator <http://lobid.org/organisation/DE-960> ;
+dct:created "2014-11-10" ;
+dc:rights "This dataset is available under the Creative Commons Public Domain Dedication (CC0)." ;
+dct:rights <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<http://sws.geonames.org/2461445/> a vivo:GeographicLocation ; 
+    rdfs:label "Western Sahara" ;
+	obo:BFO_0000051 <http://sws.geonames.org/2462881> ;
+	obo:BFO_0000051 <http://sws.geonames.org/2463447> .
+
+<http://sws.geonames.org/1819730/> a vivo:GeographicLocation ;
+    obo:BFO_0000050 geo:China ;
+	rdfs:label "Hong-Kong" ;
+	obo:BFO_0000051 <http://sws.geonames.org/1818209> ;
+	obo:BFO_0000051 <http://sws.geonames.org/1818223> ;
+	obo:BFO_0000051 <http://sws.geonames.org/1819609> ;
+	obo:BFO_0000051 <http://sws.geonames.org/1819729> .
+	
+<http://sws.geonames.org/1821275/> a vivo:GeographicLocation;
+    obo:BFO_0000050 geo:China; 
+    rdfs:label "Macau";
+	obo:BFO_0000051 <http://sws.geonames.org/1821274> .
+	
+<http://sws.geonames.org/831053/> a vivo:Country ;
+    rdfs:label "Kosovo" ;
+	obo:BFO_0000051 <http://sws.geonames.org/784759> ;
+	obo:BFO_0000051 <http://sws.geonames.org/785238> ;
+	obo:BFO_0000051 <http://sws.geonames.org/786712> ;
+	obo:BFO_0000051 <http://sws.geonames.org/786714> ;
+	obo:BFO_0000051 <http://sws.geonames.org/787157> ;
+	obo:BFO_0000051 <http://sws.geonames.org/789225> ;
+	obo:BFO_0000051 <http://sws.geonames.org/790674> ;
+	obo:BFO_0000051 <http://sws.geonames.org/790701> ;
+	obo:BFO_0000051 <http://sws.geonames.org/791580> ;
+	obo:BFO_0000051 <http://sws.geonames.org/791646> .
+	
+<http://sws.geonames.org/1024031/> a vivo:GeographicLocation, geo:non_self_governing ;
+    geo:isAdministeredBy <http://aims.fao.org/aos/geopolitical.owl#France> ;
+    rdfs:label "Mayotte";
+	obo:BFO_0000051 <http://sws.geonames.org/921815> .
+	
+<http://sws.geonames.org/6254930/> a vivo:GeographicLocation ;
+    rdfs:label "Palestine", "Palästina"@de ;
+	obo:BFO_0000051 <http://sws.geonames.org/281102> ;
+	obo:BFO_0000051 <http://sws.geonames.org/281124> ;
+	obo:BFO_0000051 <http://sws.geonames.org/281129> ;
+	obo:BFO_0000051 <http://sws.geonames.org/281133> ;
+	obo:BFO_0000051 <http://sws.geonames.org/281141> ;
+	obo:BFO_0000051 <http://sws.geonames.org/281145> ;
+	obo:BFO_0000051 <http://sws.geonames.org/282615> ;
+	obo:BFO_0000051 <http://sws.geonames.org/285066> .
+	
+<http://sws.geonames.org/1668284/> a vivo:GeographicLocation ;
+    rdfs:label "Taiwan" ;
+	obo:BFO_0000051 <http://sws.geonames.org/1665196> ;
+	obo:BFO_0000051 <http://sws.geonames.org/1668341> ;
+	obo:BFO_0000051 <http://sws.geonames.org/1668355> ;
+	obo:BFO_0000051 <http://sws.geonames.org/1668399> ;
+	obo:BFO_0000051 <http://sws.geonames.org/1668467> ;
+	obo:BFO_0000051 <http://sws.geonames.org/1670029> ;
+	obo:BFO_0000051 <http://sws.geonames.org/1670310> ;
+	obo:BFO_0000051 <http://sws.geonames.org/1671566> ;
+	obo:BFO_0000051 <http://sws.geonames.org/1672228> ;
+	obo:BFO_0000051 <http://sws.geonames.org/1673820> ;
+	obo:BFO_0000051 <http://sws.geonames.org/1674504> ;
+	obo:BFO_0000051 <http://sws.geonames.org/1675151> ;
+	obo:BFO_0000051 <http://sws.geonames.org/1678228> ;
+	obo:BFO_0000051 <http://sws.geonames.org/6696918> ;
+	obo:BFO_0000051 <http://sws.geonames.org/6949678> ;
+	obo:BFO_0000051 <http://sws.geonames.org/1674199> .
