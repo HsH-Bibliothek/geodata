@@ -17,7 +17,7 @@ dc:rights "This dataset is available under the Creative Commons Public Domain De
 dct:rights <http://creativecommons.org/publicdomain/zero/1.0/> .
 
 
-<http://sws.geonames.org/2862926/>a vivo:StateOrProvince ;
+<http://sws.geonames.org/2862926/> a vivo:StateOrProvince ;
 obo:BFO_0000050 <http://sws.geonames.org/2921044/> ;
 rdfs:seeAlso <http://d-nb.info/gnd/4042226-4> ;
 rdfs:label "Niedersachsen" .
