@@ -5,8 +5,12 @@ This dataset contains information about populated places and other geographical 
 ## German populated places
 This dataset contains information about more than 7000 German populated places with more than 1000 inhabitants, including their population, geo-URI (coordinates), and links to Wikipedia and DBpedia.  Data is partially derived from [GeoNames.org](http://geonames.org).
 
+![German locations in VIVO](german_locations_in_VIVO.png)
+
 ## Populated Places worldwide
 This dataset contains data of more than 8200 cities and towns worldwide with more than 50000 inhabitants (population, country, geo-URI (coordinates), and name of the populated place). Data is partially derived from [GeoNames.org](http://geonames.org).
+
+![Locations worldwide in VIVO](locations_worldwide_in_VIVO.png)
 
 ## States of Germany
 This dataset contains information about German states, including GND-links, and labels in German. Data is partially derived from [GeoNames.org](http://geonames.org).
