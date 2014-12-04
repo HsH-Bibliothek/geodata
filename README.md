@@ -20,6 +20,9 @@ This dataset contains information about some territories with disputed status.
 
 Data is partially derived from [GeoNames.org](http://geonames.org).
 
-## Contact
+# Contact
 
 [Bibliothek der Hochschule Hannover](http://www.hs-hannover.de/bibl/kontakt/)
+
+# Citation:
+Christian Hauschke; Elena Liventsova (2014). Geodata : Populated places for VIVO. ZENODO. DOI: [10.5281/zenodo.13101](http://dx.doi.org/10.5281/zenodo.13101)
