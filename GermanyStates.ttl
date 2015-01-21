@@ -140,7 +140,7 @@ rdfs:label "Saxony-Anhalt"@en .
 <http://sws.geonames.org/2838632/> a vivo:StateOrProvince ;
 obo:BFO_0000050 <http://sws.geonames.org/2921044/> ;
 rdfs:seeAlso <http://d-nb.info/gnd/4052692-6> ;
-rdfs:seeAlso <http://dbpedia.org/resource/Saxony-Anhalt> ;
+rdfs:seeAlso <http://dbpedia.org/resource/Schleswig-Holstein> ;
 rdfs:seeAlso <http://wikidata.org/wiki/Q1194> ;
 rdfs:label "Schleswig-Holstein"@de ;
 rdfs:label "Schleswig-Holstein"@en .
