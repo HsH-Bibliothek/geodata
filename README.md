@@ -25,4 +25,4 @@ Data is partially derived from [GeoNames.org](http://geonames.org).
 [Bibliothek der Hochschule Hannover](http://www.hs-hannover.de/bibl/kontakt/)
 
 # Citation:
-Christian Hauschke; Elena Liventsova (2014). Geodata : Populated places for VIVO. ZENODO. DOI: [10.5281/zenodo.13101](http://dx.doi.org/10.5281/zenodo.13101)
+Christian Hauschke; Elena Liventsova (2014). Geodata : Populated places for VIVO. ZENODO. DOI: [10.5281/zenodo.13101](https://doi.org/10.5281/zenodo.13101)
